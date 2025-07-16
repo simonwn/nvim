@@ -9,7 +9,7 @@
 
 ---@type vim.lsp.Config
 return {
-  cmd = { '/Users/simon/.opam/ocaml-5.3.0/bin/ocamllsp', '--stdio' },
+  cmd = { 'ocamllsp', '--stdio' },
   filetypes = { 'ocaml', 'reason' },
   root_markers = { '*.opam', 'esy.json', 'package.json' },
 }
