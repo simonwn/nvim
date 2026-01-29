@@ -27,6 +27,9 @@ return {
     end
 
     vim.keymap.set('n', '<Leader>dt', dap.toggle_breakpoint, {})
-    vim.keymap.set('n', '<Leader>dc', dap.continue, {})
+    vim.keymap.set('n', '<F5>', dap.continue, {})
+    vim.keymap.set('n', '<F8>', dap.step_over, {})
+    vim.keymap.set('n', '<F7>', dap.step_into, {})
+    vim.keymap.set('n', '<F9>', dap.step_out, {})
   end
 }
