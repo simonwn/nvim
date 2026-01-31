@@ -39,4 +39,4 @@ vim.lsp.config("*", {
 })
 
 -- Enable each language server by filename under the lsp/ folder
-vim.lsp.enable({ "gopls", "luals", "clangd", "ocaml", "elixir", "zls", "rust", "astro" })
+vim.lsp.enable({ "gopls", "luals", "clangd", "ocaml", "elixir", "zls", "rust", "ts_ls" })
