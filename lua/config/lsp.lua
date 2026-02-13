@@ -32,11 +32,10 @@ local capabilities = {
 capabilities = require("blink.cmp").get_lsp_capabilities(capabilities)
 
 -- Setup language servers.
-
 vim.lsp.config("*", {
 	capabilities = capabilities,
 	root_markers = { ".git" },
 })
 
 -- Enable each language server by filename under the lsp/ folder
-vim.lsp.enable({ "gopls", "luals", "clangd", "ocaml", "elixir", "zls", "rust", "ts_ls" })
+vim.lsp.enable({ "gopls", "luals", "clangd", "ocaml", "elixir", "zls", "rust", "ts_ls", "python" })

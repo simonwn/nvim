@@ -8,7 +8,7 @@ return {
 				"query", "dockerfile", "c_sharp", "go", "java",
 				"javascript", "json", "rust", "sql", "typescript", "html",
 				"python", "css", "elixir", "eex", "ocaml", "heex", "latex",
-				"toml", "yaml", "bash", "zig" },
+				"toml", "yaml", "bash", "zig", "css" },
 			sync_install = false,
 			highlight = { enable = true },
 			indent = { enable = true },
